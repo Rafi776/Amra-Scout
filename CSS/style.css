@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+.wrapper{
+    background: url(../pictures/ban.png) no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.button{
+            
+    height: auto;
+    float: inline-end;
+}
+.button ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    position: relative;
+    
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.button ul li a:hover{
+    color:whitesmoke;
+    background-color: plum;
+}
+.button ul li ul{
+    position: absolute;
+    background:rgba(171, 172, 170, 0.473);
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.wrapper .center{
+     position: absolute;
+    top: 50%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.about-logo img{
+    width: 250px;
+    height: auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px #000;
+}
+.about-text{
+    width: 600px;
+    height: auto;
+    color: white;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about-section{
+    background-image: url(../pictures/background.jpg);
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+.title{
+    width: 220px;
+    height: auto;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.best{
+    width: 450px;
+    height: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.best-section{
+    background: #B7BBB2;
+    padding: 40px 0px;
+    margin-top: 10px;
+}
+.contact{
+    background-color: white;
+    padding: 15px 15px 15px 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.cont-icon i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: #222;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px;
+    transition: .5s;
+    }
+.cont-icon i:hover{
+    color: yellow;
+    transform: scale(.8s);
+    }
+.cont-text{
+    padding: 0px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+    border: 0px;
+}
+.contact-section{
+    background: #cacaca;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.contact-form {
+    width: 620px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+.inputTag textarea{
+    width: 496px;
+    height: auto;
+    border: 0;
+}
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px, 20px;
+    width: 80%;
+    border: 0px;
+    margin: 8px 0px;
+    
+}
+.inputTag button{
+    width: 81%;
+    padding: 7px 0;
+    background: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border: 0px;
+    }
+.social-media{
+    background-color: white;
+    padding: 20px 20p 20x 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 8px;
+    margin-left: 10px;
+}
+.social-media i{
+    font-size: 30px;
+    padding: 0px, 10px;
+    transition: .5s;
+}
+.social-media i:hover{
+    color: yellow;
+    transform: scale(.8s);
+}
+footer{
+    width: 960px;
+    height: auto;
+    margin: 0 auto; 
+    background: #000;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 20px;
+}
+
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+

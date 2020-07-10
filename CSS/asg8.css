@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 5px;;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.button{
+            width:960px;
+    height: auto;
+    background-color: black;
+}
+.button ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.button ul li ul{
+    position: absolute;
+    background-color: black;
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+.social-media{
+    background-color: white;
+    padding: 20px 20p 20x 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 8px;
+    margin-left: 10px;
+}
+.social-media i{
+    font-size: 30px;
+    padding: 0px, 10px;
+    transition: .5s;
+}
+.social-media i:hover{
+    color: yellow;
+    transform: scale(.8s);
+}
+
+.news-body{
+    display: inline-table;
+    text-align: justify;
+}
+.newspic{
+    position: relative;
+    padding: 10px;
+}
+footer{
+    width: 960px;
+    height: auto;
+    margin: 0 auto; 
+    background: #000;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 20px;
+    text-align: center;
+}

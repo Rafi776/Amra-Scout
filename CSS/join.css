@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.button{
+    width:auto;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+.button ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.button ul li ul{
+    position: absolute;
+    background-color: black;
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.joinbanner{
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.joinbanner-text {
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.join-section{
+    padding: 40px;
+    margin-top: 10px;
+    background-color: purple;
+}
+.join{
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding:0;
+    margin:0px;
+    color:aliceblue;
+    text-decoration: underline;
+}
+.join-text{
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+.eligibility-section{
+    padding: 5px;
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+    margin-top: 10px;
+}
+.eligibility h2{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.eligibility-text{
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+    margin: 10px 10px 10px 10px;
+    padding: 40px;
+}
+.process-section{
+    padding: 5px;
+    margin: auto;
+    background-color: gainsboro;
+    margin-top: 10px;
+}
+.process h2{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.entry-content{
+    font-size: 20px;
+    text-align: center;
+}
+.entry-content p {
+    padding: 2px;
+}
+.social-media{
+    background-color: white;
+    padding: 20px 20p 20x 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 8px;
+    margin-left: 10px;
+}
+.social-media i{
+    font-size: 30px;
+    padding: 0px, 10px;
+    transition: .5s;
+}
+.social-media i:hover{
+    color: yellow;
+    transform: scale(.8s);
+}
+footer{
+    width: 960px;
+    height: auto;
+    margin: 0 auto; 
+    background: #000;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 20px;
+}
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}

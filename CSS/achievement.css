@@ -1,0 +1,106 @@
+960px;
+    height: auto;
+    background-color: black;
+}
+.button ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.button ul li ul{
+    position: absolute;
+    background-color: black;
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+.banner{
+   height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 80px;
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+   }
+.nsaward-text{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gainsboro;
+    color: purple;
+}
+.table, th, td{
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;
+    
+}
+.table, th {  
+    background: #9400D3; /* darkviolet background */
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.table, td {  
+    background: #FAFAFA; /* Lighter grey background */
+    text-align: center; /* Center our text */
+}
+.table, tr:nth-child(even) td 
+{ background: #F1F1F1; } 
+
+.table, tr:nth-child(odd) td { background: #FEFEFE; }  
+.table tr td:hover { background: #666; color: #FFF; }  
+
+footer{
+    width: 960px;
+    height: auto;
+    margin: 0 auto; 
+    background: #000;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 20px;
+}
