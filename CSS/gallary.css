@@ -181,6 +181,11 @@ header{
     color: yellow;
     transform: scale(.8s);
 }
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
 footer{
     width: 960px;
     height: auto;

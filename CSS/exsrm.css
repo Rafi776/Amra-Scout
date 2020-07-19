@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
+.button{
+    width:960px;
+    height: auto;
+    background-color: black;
+}
+.button ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.button ul li ul{
+    position: absolute;
+    background-color: black;
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}

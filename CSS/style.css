@@ -17,7 +17,7 @@ header{
             
     height: auto;
     float: inline-end;
-}
+    }
 .button ul li{
     list-style: none;
     margin: 0 8px;
@@ -208,6 +208,11 @@ header{
     color: yellow;
     transform: scale(.8s);
 }
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
 footer{
     width: 960px;
     height: auto;

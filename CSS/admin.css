@@ -7,6 +7,11 @@ header{
     height: auto;
     margin: 0;
 }
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
 .button{
             width:960px;
     height: auto;
@@ -68,23 +73,50 @@ header{
 .column {
   float: left;
   width: 20%;
-  padding:60px;
+  padding:10px;
+    
 }
 .row::after {
   content: normal;
   clear: both;
   display: table;
+    padding: 5px;
+}
+.RSL{
+   content: normal;
+    clear: both;
+    padding: 20px;
+    margin-right: 80px;
+    width: 100%;
+    padding:60px; 
+}
+.RSL-text{
+    text-decoration: underline;
+    margin-left: 80px;
+}
+.SRM{
+  content: normal;
+    clear: both;
+    padding: 20px;
+    margin-right: 80px;
+    width: 100%;
+    padding:60px;  
+}
+.SRM-text{
+    text-decoration: underline;
 }
 .RM{
     content: normal;
     clear: both;
-    display: block;
+    padding: 20px;
+    margin-right: 80px;
     width: 100%;
     padding:60px;
 }
 .RM-text{
     text-align: center;
     text-decoration: underline;
+    margin-right: 100px;
 }
 .ARM{
   
@@ -97,8 +129,10 @@ header{
 .ARM-text{
     text-align: center;
     text-decoration: underline;
-   
+   margin-left: 50px;
 }
+
+
 
 footer{
     width: 960px;
@@ -110,6 +144,9 @@ footer{
     text-align: center;
     margin-top: 800px;
 }
+
+
+
 
 .footer-text{
     font-size: 20px;

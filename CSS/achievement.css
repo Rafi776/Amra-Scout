@@ -86,7 +86,11 @@
 { background: #F1F1F1; } 
 
 .table, tr:nth-child(odd) td { background: #FEFEFE; }  
-.table tr td:hover { background: #666; color: #FFF; }  
+.table tr td:hover { background: #666; color: #FFF; } 
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
 
 footer{
     width: 960px;
