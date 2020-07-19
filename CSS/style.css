@@ -1,7 +1,25 @@
 *{
     margin: 0;
-    padding: 5px;
+    padding: 0;
 }
+
+marquee{
+    background: #E9BE72;
+    margin: 30px auto;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.marqueetext{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 40px;
+    font-weight: bolder;
+}
+
+
 .wrapper{
     background: url(../pictures/ban.png) no-repeat;
     background-size: cover;

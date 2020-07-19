@@ -1,7 +1,24 @@
-960px;
+.{960px;
     height: auto;
     background-color: black;
 }
+
+marquee{
+    background: #E9BE72;
+    margin: 30px auto;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.marqueetext{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 40px;
+    font-weight: bolder;
+}
+
 .button ul li{
     list-style: none;
     display: inline-block;
