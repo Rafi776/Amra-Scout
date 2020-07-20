@@ -64,3 +64,38 @@ body{
     width: 200px;
     border-bottom: 1px solid #fff;
 }
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+.formersrm h1{
+    padding: 10px;
+    text-align: center;
+    text-decoration:inherit;
+    font-family: sans-serif;
+}
+
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+.row::after {
+  content: normal;
+  clear: both;
+  display: grid;
+}
+
+.formersrmgirl h2{
+    text-align: center;
+    
+}
