@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+marquee{
+    background: #E9BE72;
+    margin: 30px auto;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.marqueetext{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 40px;
+    font-weight: bolder;
+}
+
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
+.button{
+    width:960px;
+    height: auto;
+    background-color: black;
+}
+.button ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.button ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.button ul li ul{
+    position: absolute;
+    background-color: black;
+    left: -9999px;
+}
+.button ul li:hover ul{
+    left: 0px;
+}
+.button ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.weblogo{
+    padding: 0;
+    text-align: center;
+        
+}
+.weblogo h1{
+    padding-bottom: 15px;
+        font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+.formersrm h1{
+    padding: 10px;
+    text-align: center;
+    text-decoration:inherit;
+    font-family: sans-serif;
+}
+
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+.row::after {
+  content: normal;
+  clear: both;
+  display: grid;
+}
+
+.formersrmgirl h2{
+    text-align: center;
+    
+}

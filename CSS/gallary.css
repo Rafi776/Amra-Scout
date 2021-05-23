@@ -7,6 +7,22 @@ header{
     height: auto;
     margin: 0 auto;
 }
+
+marquee{
+    background: #E9BE72;
+    margin: 30px auto;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.marqueetext{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    min-width: 40px;
+    font-weight: bolder;
+}
 .button{
             width:960px;
     height: auto;
@@ -181,6 +197,11 @@ header{
     color: yellow;
     transform: scale(.8s);
 }
+
+body{
+    background-image: url(../pictures/back.jpg);
+}
+
 footer{
     width: 960px;
     height: auto;
